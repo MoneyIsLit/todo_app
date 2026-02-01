@@ -1,0 +1,222 @@
+// import java.util.*;
+
+// class main {
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);   //input
+//         System.out.println("Enter a charcater");  //    execution starts here
+//         char ch = sc.next().charAt(0); //zero means first one   furkaan       'furkaan' =>  'f'     65 to 90 and 97 to 122
+//         if((ch >= 65 && ch<=90) || (ch>=97 && ch <= 122)){   //if its an alphabet or not
+//             if((ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')){ 
+//                 System.out.println(ch + " is a vowel");
+//             }else{
+//                 System.out.println(ch + " is a consonant");
+//             }
+//         }else{
+//             System.out.println(ch + " is not a alphabet");
+//         }                             
+//     }
+// }
+
+// // &&  and
+// // || or 
+
+
+
+// //'furkaan' is taken by next() by a char data type 
+// // 'furkaan'   furkaan.walk().college().study().end().return()
+
+// // 'furkaan' charcter
+// // "durkaan" string
+
+// //to check if ch is capital letter or small letter
+            
+
+
+
+
+
+
+
+
+
+// function furkaan(arg1,arg2)
+// {
+// /////////////////
+// }
+
+// furkaan(read,write)
+
+
+
+
+
+
+
+// import java.util.*;
+
+// class main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter a 3 digit number");
+//         int n = sc.nextInt();
+//         int mid;
+//         if(n <= 999 & n >= 100){
+//             mid = (n/10)%10;
+//             if(mid % 3 == 0 ){
+//                 System.out.println(n + " is divisible by 3");
+//             }else{
+//                 System.out.println(n + " is not divisible by 3");
+//             }
+
+//         }else{
+//             System.out.println(n + " is not a 3 digit number");
+//         }
+//     }
+// }
+
+
+
+
+
+
+// import java.util.*;
+
+// class main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the 3 numbers");
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int c = sc.nextInt();
+//         int second;
+//         if((a>=b && a<=c) || (a>=c && a<=c)){
+//             System.out.println(a + " is second largest");
+//         }else if((b>=a && b<=c) || (b>=c && b<=a)){
+//             System.out.println(b + " is second largest");
+//         }else if((c>=a && c<=b) || (c>=b && c<=a)){
+//             System.out.println(c + " is second largest");
+//         }
+//     }
+// }
+                   //    7 8 9
+
+
+        // if(n1 > n2){
+        //     greatest = n1;
+        // }else{
+        //     greatest = n2;
+        // }
+        // if(greatest > n3){
+        //     greatest = greatest;
+        // }else{
+        //     greatest = n3;
+        // }
+        // System.out.println(greatest);
+        // if(greatest == n1){
+        //     great = n1
+        // }
+
+
+
+
+// import java.util.*;
+
+// class main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter number of rows");
+//         int n = sc.nextInt();
+//         for(int i=1;i<=n;i++){
+//             for(int j=1;j<=n;j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+
+
+// import java.util.*;
+
+// class Hollow{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter size of square");
+//         int n = sc.nextInt();
+//         for(int i=1;i<=n;i++){
+//             for(int j=1;j<=n;j++){
+//                 if(i==1 || i == n || j == 1 || j == n){
+//                     System.out.print("*");
+//                 }else{
+//                     System.out.print(" ");
+//                 }
+            
+//         }
+//         System.out.println();
+//     }
+// }
+
+// }
+
+
+// import java.util.*;
+
+// class main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the no. of rows");
+//         int n = sc.nextInt();
+//         for(int i=1;i<=n;i++){
+//             for(int j=0;j<=n;j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+// import java.util.*;
+// class main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the 2 numbers");
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         System.out.print("Enter the operation(+,-,*,/)");
+//         char op = sc.next().charAt(0);
+//         switch(op){
+//             case '+':
+//                 System.out.println("Result: " +(a+b));
+//                 break;
+//             case '-':
+//                 System.out.println("Result: " +(a-b));
+//                 break;
+//             case '*':
+//                 System.out.println("Result: "+(a*b));
+//                 break;
+//             case '/':
+//                 if(b!=0){
+//                     System.out.println("Result: "+(a/b));
+//                 }else{
+//                     System.out.println("Division by zero is not allowed");
+//                 }
+//             default:
+//                 System.out.println("Invalid Opearator
+
+
+
+
+
+
+
+
+
+
+        O 
+       /|\
+       / \ 
